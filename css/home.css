@@ -1,0 +1,567 @@
+#home{
+    background: url(../images/door.jpg);
+    background-size: cover;
+    background-position: center;
+    background-position-y: 40%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size:cover;
+    -webkit-background-position: center;
+    -webkit-background-position-y: 40%;
+    -webkit-background-repeat: no-repeat;
+    -webkit-background-attachment: scroll;
+}
+@media (max-width: 500px){
+    #home{
+        background: url(../images/door.jpg);
+        background-size: cover;
+        background-position: center;
+        background-position-x: 78%;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        -webkit-background-size:cover;
+        -webkit-background-position: center;
+        -webkit-background-repeat: no-repeat;
+        -webkit-background-attachment: scroll;
+        -webkit-background-position-x: 78%;
+    }
+
+}
+
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+section{
+    width: 100%;
+    height: 900px;
+    float: left;
+
+}
+
+@media (max-width: 766px){
+
+
+
+    .contact-1{
+        position: relative;
+
+    }
+    .contact-2{
+        position: relative;
+        top: 550px;
+        height: 600px;
+    }
+    .google-map{
+        margin-top: 25px;
+    }
+    #review{
+        top: 25px;
+        position: relative;
+        margin-bottom: 250px;
+    
+    }
+
+}
+
+@media (max-width:499px){
+    #review{
+        top: -125px;
+        position: relative;
+        margin-bottom: 250px;
+    }
+}
+
+
+
+
+
+
+
+/*home page*/
+
+
+/*nav*/
+nav{
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 30px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+@media (max-width: 500px) {
+    nav{
+        font-size: 15px;
+        margin-left: 13px;
+    }
+}
+    
+
+nav ul{
+    width:fit-content;
+    margin: auto;
+    list-style: none;
+}
+nav ul li{
+    float: left;
+    margin-right: 30px;
+}
+nav ul li a{
+    color: sandybrown;
+}
+
+nav ul li a:hover{
+    color: #fff;
+    background-color: black;
+    text-decoration: none;
+}
+
+
+
+
+
+main{
+text-align: center;
+}
+
+
+#demo1{
+    font-family: 'Bungee Inline', cursive;
+    margin-top: 250px;
+    font-size: 110px;
+    color: rgb(24, 22, 21);
+
+}
+
+
+@media (max-width: 500px) {
+#demo1{
+    font-size: 55px;
+}
+}
+
+.main-line{
+border:4px solid #fff;
+width: 50%;
+}
+
+.home-h, .home-p{
+    color: rgb(24, 22, 21);
+    font-weight: 400;
+    font-size: 25px;
+}
+
+
+/*our story*/
+
+#our{
+    width: 100%;
+    height: 600px;
+    float: left;
+
+}
+
+
+@media (min-width: 768px){
+    #our{
+    margin-top: 40px;
+    width: 100%;
+    height: 450px;
+    float: left;
+}
+    
+  }
+
+.back-h{
+    font-family: 'Permanent Marker', cursive;
+    position: relative;
+    top: 10px;
+    color: sandybrown;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.front-h{
+    position: relative;
+    font-size: 50px;
+    font-weight: 300;
+    top: -25px;
+
+}
+
+
+.our-content{
+    text-align: center;
+}
+
+.boss{
+    width: 80%;
+}
+
+/*MENU*/
+.menu{
+   background: url(../images/wood.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 500px;
+}
+@media (max-width:500px){
+    .menu{
+        background: url(../images/wood.jpg);
+         background-size: cover;
+         background-position: center;
+         background-repeat: no-repeat;
+         background-attachment: scroll;
+         height: 500px;
+         -webkit-background-size: cover;
+         -webkit-background-position: center;
+         -webkit-background-repeat: no-repeat;
+         -webkit-background-attachment: scroll;
+         -webkit-height: 500px;
+     }
+}
+
+@media (min-width: 869px) {
+    #foodmenu{
+        width:fit-content;
+        margin: auto;
+        list-style: none;
+    }
+    #foodmenu li{
+        float: left;
+        margin-right: 30px;
+    }
+
+}
+@media (max-width: 868px) {
+    #foodmenu{
+        width:fit-content;
+        margin: auto;
+        list-style: none;
+    }
+    #foodmenu li{
+        float: left;
+        margin-right: 5px;
+    }
+}
+
+@media (max-width:500px) {
+    #foodmenu a{
+        margin-right: 10px;
+        margin-left: 5px;
+    }
+    h3{
+        font-size: 18px !important;
+        font-weight: 700;
+    }
+    h6{
+        font-size: 14px !important;
+        font-weight: 700;
+    }
+    .menu-p{
+        font-size: 12px !important;
+
+    }
+
+    }
+
+
+#foodmenu a{
+    color: sandybrown;
+    margin-right: 10px;
+    font-weight:500;
+}
+
+
+#foodmenu a:hover{ 
+    background-color: sandybrown;
+    color: white;
+    text-decoration: none;
+}
+@media (min-width: 1280px){
+    
+    #foodmenu a:hover{
+        font-size: 1.25rem;
+    }
+
+    h3{
+        font-size: 30px !important;
+        font-weight: 700 !important;
+    }
+    h6{
+        font-size: 23px !important;
+        font-weight: 700 !important;
+    }
+    .menu-p{
+        font-size: 15px !important;
+
+    }
+
+
+
+}
+
+.food-menu{
+    margin-bottom: 100px;
+}
+
+.pages {
+    display : none;
+}
+
+.menu-bg{
+    background:#fffee0;
+    width:80%;
+}
+
+.our-menu{
+    margin-bottom: 10px;
+}
+
+h6{
+    font-weight: 600;
+    font-size: 15px;
+}
+
+
+.menu-p{
+    font-size: 0.85rem;
+}
+
+
+
+.menu{
+    font-family: 'Molle', cursive;
+    position: relative;
+}
+
+.menu-bg{
+    position: relative;
+    bottom: 350px;
+    opacity: 0.8;
+}
+
+
+.menu-line{
+    position: relative;
+    border: 2px solid sandybrown;
+    text-align: center;
+    width: 150px;
+    top: -20px;
+}
+
+.soft-drinks{
+    font-size: 0.7rem;
+}
+
+.cocktail{
+    font-weight: 600;
+    font-size: 15px;
+}
+
+
+
+/*food-pic*/
+
+#grid-container {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+
+  }
+  
+  .grid-item {
+    opacity: 0;
+    float: left;
+    box-sizing: border-box;
+  }
+  
+  .grid-item img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .grid-item.loaded {
+    opacity: 1;
+    transition: opacity .5s;
+  }
+
+  /* review */
+  #review{
+    width: 100%;
+    height: 300px;
+    float: left;
+  }
+  @media (max-width: 500px){
+    #review{
+        margin-top:80%;
+    }
+}
+
+
+    @media screen and (max-width: 660px) and (min-width: 501px){
+        #review{
+            margin-top:135%;
+        }
+    
+      }
+
+      @media screen and (max-width: 960px) and (min-width: 759px){
+        #review{
+            margin-top:20%
+        }
+    
+      }
+
+    
+
+  @media screen and (max-width: 1050px) and (min-width: 961px){
+    #review{
+        margin-top:-20%;
+    }
+
+  }
+
+  @media (min-width:1354px){
+      #review{
+          margin-top:10%;
+      }
+  }
+
+  @media (min-width:1591px){
+    #review{
+        margin-top:17%;
+    }
+}
+
+
+  #review a{
+      color: sandybrown;
+  }
+  #review a:hover{
+      color:salmon;
+      text-decoration: none;
+  }
+
+
+  
+
+
+
+/*contact*/
+
+
+
+
+
+
+#contact{
+    margin-top:200px;
+}
+
+.footer{
+    padding-top: 50px;
+}
+#contact a{
+    color: sandybrown;
+}
+#contact a:hover{
+    color: salmon;
+    text-decoration: none;
+}
+.contact-1{
+    width: 100%;
+    height: 500px;
+    float: left;
+
+}
+
+.contact-2{
+    width: 100%;
+    height: 400px;
+    float: left;
+    color: sandybrown;
+}
+
+
+
+
+.partner{
+    widows: 100%;
+    height: 50px;
+}
+
+
+.contact-1{
+    background-color: #f2f2f2;
+} 
+
+.contact-2{
+    background: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 50%
+} 
+
+.footer-line{
+    border: 2px solid #fff;
+}
+@media (min-width: 765px){
+.partners{
+    padding-top: 50px;
+}
+}
+
+
+
+    
+    .form-control{
+      background: transparent;
+      border: none;
+      outline: none;
+      border-bottom: 1px solid gray;
+      color: black;
+      font-size: 15px;
+    
+    }
+    
+    input{
+      height: 45px;
+      color: black;
+    }
+    form .submit{
+      background: #ff5722;
+      border-color: transparent;
+      color: #fff;
+      font-size: 20px;
+      font-weight: bold;
+      letter-spacing: 2px;
+      height: 50px;
+      width: 300px;
+      margin: auto;
+    }
+    
+    form .submit:hover{
+      background-color: #f44336;
+      cursor: pointer;
+    }
+
+    @media (max-width: 500px){
+        .mail{
+            font-size: 12px;
+        }
+
+    }
+
+
+    .jay-phone{
+        padding-left: 25px;
+    }
+    
+
+
+
